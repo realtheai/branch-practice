@@ -1,6 +1,6 @@
-for j in range(1,17+1):
-    if j % 15  == 0:
-        print('fizzbuzz')
+for j in range(1,15+1):
+    if j % 3  == 0 or j % 5 == 0:
+        print('fizz' * (j % 3 == 0) + 'buzz' * (j % 5 == 0))
     else:
         print(j)
 
